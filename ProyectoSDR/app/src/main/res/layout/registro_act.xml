@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvRitmoActual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ritmo cardíaco actual: "
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etPensamiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="¿En qué pensabas?" />
+
+    <EditText
+        android:id="@+id/etEstadoAnimo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="¿Cómo te sientes?" />
+
+    <EditText
+        android:id="@+id/etReaccionesFisicas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="¿Reacciones físicas?" />
+
+    <EditText
+        android:id="@+id/etActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="¿Qué actividad estabas haciendo?" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar" />
+</LinearLayout>

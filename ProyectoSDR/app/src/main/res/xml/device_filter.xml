@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Especifica dispositivos USB compatibles con la aplicación -->
+    <usb-device vendor-id="6790" product-id="29987" /> <!-- Dispositivo USB con vendor-id 0x1A86 y product-id 0x7523 -->
+    <usb-device vendor-id="9025" product-id="67" /> <!-- Arduino UNO con vendor-id 0x2341 y product-id 0x0043 -->
+</resources>
